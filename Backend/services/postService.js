@@ -1,5 +1,5 @@
 const postModel = require("../models/postModel");
-//const clearCache = require("../services/cache");
+
 class Service {
   static async createPost(data) {
     const post = new postModel({
