@@ -8,7 +8,7 @@ Features
 6.      Email send using Nodemailer through google 0Auth 2.0
 7.      Image upload using Multer
 8.      Functional components and Redux are used for managing the application state.
-9.      
+9.         
 Please visit:  https://commenting-system.netlify.app/    
 You can create an account. If you don’t please use Email: netsazzad@gmail.com and
 Password: 12345678
