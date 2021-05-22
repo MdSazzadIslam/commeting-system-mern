@@ -266,7 +266,6 @@ exports.updateUser = async (req, res, next) => {
 exports.logout = (req, res, next) => {
   try {
     cookie.remove("login");
-    return res.redirect("/login");
   } catch (err) {
     next(err);
   }
