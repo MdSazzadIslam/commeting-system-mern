@@ -1,0 +1,105 @@
+.sidebar {
+  position: sticky;
+  top: 80px;
+  flex: 0.2;
+  border-radius: 10px;
+  text-align: center;
+  height: fit-content;
+}
+.sidebar_left {
+  margin: 30px 0 0 30px;
+  width: 200px;
+  height: 330px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+}
+.topBackground {
+  display: flex;
+  justify-content: flex-start;
+  height: 55px;
+}
+.middle_container {
+  width: 100%;
+}
+
+.profile_pic {
+  align-self: center;
+  position: absolute;
+  top: 120px;
+  height: 60px;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.img_container {
+  display: flex;
+  justify-content: center;
+}
+
+.descriptions {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.descriptions h1 {
+  font-size: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.descriptions span {
+  align-self: center;
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.profile_viewers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.profile_viewers_views {
+  margin: 10px 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile_viewers_views:hover {
+  text-decoration: underline;
+}
+
+.profile_viewers_views a {
+  color: #0077b5;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.premiumBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.premiumBox span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+.premiumBox:hover {
+  text-decoration: underline;
+}
+
+.divisor {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+}

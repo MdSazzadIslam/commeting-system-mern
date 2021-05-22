@@ -1,0 +1,80 @@
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #131921;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.profile_pic {
+  height: 30px;
+  border-radius: 100%;
+  background: #fff;
+  align-self: center;
+  display: none;
+}
+.logo_container {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 30px;
+  cursor: pointer;
+  margin-right: 12px;
+}
+.input_container {
+  display: flex;
+}
+
+.fa-search {
+  position: absolute;
+  align-self: center;
+  margin-left: 5px;
+  color: #808080;
+}
+
+.search_box {
+  height: 8px;
+  padding: 12px 15px 12px 25px;
+  border-radius: 3px;
+  border: none;
+  margin-right: 12px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  float: left;
+  cursor: pointer;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  cursor: pointer;
+}
+
+/* Add an active class to highlight the current page */
+/* .topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+} */
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}

@@ -1,0 +1,109 @@
+/* .container {
+  padding: 2px 16px;
+} */
+.feed {
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 10 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 50px;
+  margin-right: 50px;
+  height: auto;
+  transition: 0.3s;
+  clear: both;
+}
+
+.feed:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.feed_pic {
+  width: 10%;
+  height: 50%;
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 0 0;
+}
+
+.like {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+.dislike {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  transition: 0.5s;
+}
+.dislike:hover {
+  background-color: aqua;
+  color: red;
+}
+.edit_btn {
+  float: right;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+.delete_btn {
+  float: right;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: -webkit-translate(-50%, -50%);
+  transform: -moz-translate(-50%, -50%);
+  transform: -ms-translate(-50%, -50%);
+  color: darkred;
+}
+.cls_comment {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #ccc;
+  font-size: medium;
+  padding-left: 4px;
+}
+
+.widget .panel-body {
+  padding: 0px;
+}
+.widget .list-group {
+  margin-bottom: 0;
+}
+.widget .panel-title {
+  display: inline;
+}
+.widget .label-info {
+  float: right;
+}
+.widget li.list-group-item {
+  border-radius: 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+.widget li.list-group-item:hover {
+  background-color: rgba(86, 61, 124, 0.1);
+}
+.widget .mic-info {
+  color: #666666;
+  font-size: 11px;
+}
+.widget .action {
+  margin-top: 5px;
+}
+.widget .comment-text {
+  font-size: 12px;
+}
+.widget .btn-block {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}

@@ -1,0 +1,59 @@
+.container {
+  padding: 2px 16px;
+}
+.post {
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #cccc;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 50px;
+  margin-right: 50px;
+  height: auto;
+}
+.post h3 {
+  text-align: center;
+}
+
+.input_field {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn_submit {
+  background-color: #4caf50;
+  color: white;
+  padding: 7px 7px;
+  margin: 1px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+  float: right;
+}
+
+.btn_submit:hover {
+  cursor: pointer;
+  background-color: rosybrown;
+}
+.post_image {
+  width: 10%;
+  height: 50%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
