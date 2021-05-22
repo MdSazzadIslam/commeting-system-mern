@@ -1,6 +1,6 @@
 "use strict";
 var jwt = require("jsonwebtoken");
-require("dotenv").config({ path: "../config.env" });
+require("dotenv").config({ path: "../.env" });
 
 function verifyToken(req, res, next) {
   const bearerHeader = req.headers["authorization"];
