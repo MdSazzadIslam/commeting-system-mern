@@ -10,6 +10,5 @@ Features
 8.      Functional components and Redux are used for managing the application state.
 9.      
 Please visit:  https://commenting-system.netlify.app/    
-You can create an account. If you don’t please use bellow information
-Email: netsazzad@gmail.com
+You can create an account. If you don’t please use Email: netsazzad@gmail.com and
 Password: 12345678
