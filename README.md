@@ -10,7 +10,7 @@ Features
 7.      Image upload using Multer
 8.      Functional components and Redux are used for managing the application state.
       
-Please visit:  https://commenting-system.netlify.app/    
+Deployed on:  https://commenting-system.netlify.app/    
 You can create an account. If you don’t please use Email: netsazzad@gmail.com and
 Password: 12345678
 
